@@ -1,7 +1,7 @@
 pipeline {
     agent any
     tools {
-        nodejs 'nodejs'
+        nodejs 'npm'
     }
     environment {
         MY_IMAGE = 'sophak-react-img'
