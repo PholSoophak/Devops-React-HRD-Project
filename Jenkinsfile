@@ -1,5 +1,5 @@
 pipeline {
-    agent worker1
+    agent "worker1"
     tools {
         nodejs 'npm'
     }
