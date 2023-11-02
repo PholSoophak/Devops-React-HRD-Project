@@ -1,5 +1,9 @@
 pipeline {
-    agent "worker1"
+    agent {
+        node{
+            label 'worker1'
+        }
+    }
     tools {
         nodejs 'npm'
     }
