@@ -115,11 +115,11 @@ function LoginPage() {
           <div className="mb-6 text-center pt-6">
             <p className="text-md text-gray-600">
               Don't have an account ?
-              <Link to="/register">
+              <NavLink to="/">
                 <span className="text-blue-600 hover:text-blue-800 ml-2 cursor-pointer">
                   Sign up
                 </span>
-              </Link>
+              </NavLink>
             </p>
           </div>
           {/* The button to open modal */}
