@@ -1,7 +1,9 @@
 {
   "name": "mini_todo",
   "version": "0.1.0",
-  "private": true,
+  "publishConfig": {
+    "registry": "https://nexus-sophak.kbaenak.tech/repository/test-repo-hosted/"
+  },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.3",
     "@tailwindcss/line-clamp": "^0.4.4",
